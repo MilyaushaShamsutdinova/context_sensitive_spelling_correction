@@ -67,10 +67,10 @@ class ContextSensitiveSpellCorrector:
 
 # usage
 
-# ngram_model_path = r"models\trigram_model_shakespeare.pkl"
-# spell_corrector = ContextSensitiveSpellCorrector(ngram_model_path, n=3)
+ngram_model_path = r"models\trigram_model_shakespeare.pkl"
+spell_corrector = ContextSensitiveSpellCorrector(ngram_model_path, n=3)
 
-# sentence = "to be or not to ve"
-# corrected_sentence = spell_corrector.correct_sentence(sentence)
-# print("  initial: ", sentence)
-# print("corrected: ", corrected_sentence)
+sentence = "to be or not to ve"
+corrected_sentence = spell_corrector.correct_sentence(sentence)
+print("  initial: ", sentence)
+print("corrected: ", corrected_sentence)
